@@ -62,6 +62,9 @@ function M.setup()
 		["@constant"] = { link = "Constant", },
 		["@constant.macro"] = { link = "Constant", },
 		["@constant.builtin"] = { link = "Constant", },
+		["@lsp.type.constant.cs"] = { link = "Constant", },
+		["@lsp.mod.static.cs"] = { link = "Constant", },
+		["@lsp.typemod.constant.static.cs"] = { link = "Constant", },
 
 		Variable = { fg = colors.variable, },
 		["@lsp.type.variable"] = { link = "Variable", },
@@ -84,6 +87,7 @@ function M.setup()
 		["@function.macro"] = { link = "Function", },
 		["@function.method"] = { link = "Function", },
 		["@function.builtin"] = { link = "Function", },
+		["csAccessor"] = { link = "Function", },
 
 		Namespace = { fg = colors.namespace, },
 		["@lsp.type.namespace"] = { link = "Namespace", },
@@ -123,6 +127,10 @@ function M.setup()
 		["@String"] = { link = "String", },
 		["@stringEscape"] = { fg = variable_type_colors.stringEscape, },
 		["@string.escape"] = { link = "@stringEscape", },
+		["@lsp.type.stringEscapeCharacter.cs"] = { link = "@stringEscape", },
+		["csCharacter"] = { link = "@stringEscape", },
+		["csSpecialChar"] = { link = "@stringEscape", },
+
 
 		Number = { fg = variable_type_colors.number, },
 		["@lsp.type.number"] = { link = "Number", },
