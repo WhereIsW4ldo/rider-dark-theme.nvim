@@ -83,6 +83,7 @@ function M.setup()
 
 		Function = { fg = colors.functionColor, },
 		["@lsp.type.function"] = { link = "Function", },
+		["@lsp.typemod.method.static.cs"] = { link = "Function", },
 		["@function"] = { link = "Function", },
 		["@function.macro"] = { link = "Function", },
 		["@function.method"] = { link = "Function", },
