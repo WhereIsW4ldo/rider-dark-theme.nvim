@@ -95,6 +95,7 @@ function M.setup()
 
 		Class = { fg = colors.class, },
 		["@lsp.type.class"] = { link = "Class", },
+		["@lsp.type.recordClass"] = { link = "Class", },
 
 		Enum = { fg = colors.enum, },
 		["@lsp.type.enum"] = { link = "Enum", },
